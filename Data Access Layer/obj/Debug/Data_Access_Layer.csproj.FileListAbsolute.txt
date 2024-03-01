@@ -1,0 +1,11 @@
+C:\Users\GRV\Desktop\Tricon\Project\Employee Management System Project\Data Access Layer\bin\Debug\Data Access Layer.dll.config
+C:\Users\GRV\Desktop\Tricon\Project\Employee Management System Project\Data Access Layer\bin\Debug\Data Access Layer.dll
+C:\Users\GRV\Desktop\Tricon\Project\Employee Management System Project\Data Access Layer\bin\Debug\Data Access Layer.pdb
+C:\Users\GRV\Desktop\Tricon\Project\Employee Management System Project\Data Access Layer\bin\Debug\EntityFramework.dll
+C:\Users\GRV\Desktop\Tricon\Project\Employee Management System Project\Data Access Layer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\GRV\Desktop\Tricon\Project\Employee Management System Project\Data Access Layer\bin\Debug\EntityFramework.xml
+C:\Users\GRV\Desktop\Tricon\Project\Employee Management System Project\Data Access Layer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\GRV\Desktop\Tricon\Project\Employee Management System Project\Data Access Layer\obj\Debug\Data_Access_Layer.csproj.CoreCompileInputs.cache
+C:\Users\GRV\Desktop\Tricon\Project\Employee Management System Project\Data Access Layer\obj\Debug\Data_Access_Layer.csproj.CopyComplete
+C:\Users\GRV\Desktop\Tricon\Project\Employee Management System Project\Data Access Layer\obj\Debug\Data Access Layer.dll
+C:\Users\GRV\Desktop\Tricon\Project\Employee Management System Project\Data Access Layer\obj\Debug\Data Access Layer.pdb

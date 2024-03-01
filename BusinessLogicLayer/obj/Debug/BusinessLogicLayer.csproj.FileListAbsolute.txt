@@ -1,0 +1,15 @@
+C:\Users\GRV\Desktop\Tricon\Project\Employee Management System Project\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.dll.config
+C:\Users\GRV\Desktop\Tricon\Project\Employee Management System Project\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.dll
+C:\Users\GRV\Desktop\Tricon\Project\Employee Management System Project\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.pdb
+C:\Users\GRV\Desktop\Tricon\Project\Employee Management System Project\BusinessLogicLayer\bin\Debug\Data Access Layer.dll
+C:\Users\GRV\Desktop\Tricon\Project\Employee Management System Project\BusinessLogicLayer\bin\Debug\EntityFramework.dll
+C:\Users\GRV\Desktop\Tricon\Project\Employee Management System Project\BusinessLogicLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\GRV\Desktop\Tricon\Project\Employee Management System Project\BusinessLogicLayer\bin\Debug\Data Access Layer.pdb
+C:\Users\GRV\Desktop\Tricon\Project\Employee Management System Project\BusinessLogicLayer\bin\Debug\Data Access Layer.dll.config
+C:\Users\GRV\Desktop\Tricon\Project\Employee Management System Project\BusinessLogicLayer\bin\Debug\EntityFramework.xml
+C:\Users\GRV\Desktop\Tricon\Project\Employee Management System Project\BusinessLogicLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\GRV\Desktop\Tricon\Project\Employee Management System Project\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.AssemblyReference.cache
+C:\Users\GRV\Desktop\Tricon\Project\Employee Management System Project\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+C:\Users\GRV\Desktop\Tricon\Project\Employee Management System Project\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CopyComplete
+C:\Users\GRV\Desktop\Tricon\Project\Employee Management System Project\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.dll
+C:\Users\GRV\Desktop\Tricon\Project\Employee Management System Project\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.pdb
