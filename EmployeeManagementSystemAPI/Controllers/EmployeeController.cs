@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
-using System.Web.Http;
-using BusinessLogicLayer;
+﻿using BusinessLogicLayer;
 using EmployeeManagementSystemAPI.Models;
+using System.Collections.Generic;
+using System.Web.Http;
 
 namespace EmployeeManagementSystemAPI.Controllers
 {
@@ -26,7 +22,6 @@ namespace EmployeeManagementSystemAPI.Controllers
             {
                 return BadRequest(ModelState);
             }
-
             NewEmployeeDTO newEmployeeDTO = new NewEmployeeDTO
             {
                 EmpCode = newEmpModel.EmpCode,
@@ -35,13 +30,11 @@ namespace EmployeeManagementSystemAPI.Controllers
                 Email = newEmpModel.Email,
                 DeptCode = newEmpModel.DeptCode
             };
-
             bool success = employeeManager.AddEmployee(newEmployeeDTO);
             if (!success)
             {
                 return BadRequest("Error");
             }
-
             return Ok("Employee added successfully");
         }
 
@@ -63,7 +56,6 @@ namespace EmployeeManagementSystemAPI.Controllers
                 };
                 employeeModels.Add(empModel);
             }
-
             return Ok(employeeModels);
         }
 
@@ -76,7 +68,6 @@ namespace EmployeeManagementSystemAPI.Controllers
             {
                 return NotFound();
             }
-
             EmpModel empModel = new EmpModel
             {
                 EmpCode = employee.EmpCode,
@@ -96,12 +87,10 @@ namespace EmployeeManagementSystemAPI.Controllers
             {
                 return BadRequest(ModelState);
             }
-
             if (id != newEmpModel.EmpCode)
             {
                 return BadRequest();
             }
-
             NewEmployeeDTO newEmployeeDTO = new NewEmployeeDTO
             {
                 EmpCode = newEmpModel.EmpCode,
@@ -110,7 +99,6 @@ namespace EmployeeManagementSystemAPI.Controllers
                 Email = newEmpModel.Email,
                 DeptCode = newEmpModel.DeptCode
             };
-
             bool success = employeeManager.UpdateEmployee(newEmployeeDTO);
             if (!success)
             {
@@ -129,7 +117,6 @@ namespace EmployeeManagementSystemAPI.Controllers
             {
                 return BadRequest($"Unable to delete the Employee details with Id:{id}");
             }
-
             return Ok("Deleted the account");
         }
     }

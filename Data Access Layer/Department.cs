@@ -19,7 +19,6 @@ namespace Data_Access_Layer
         {
             this.Employees = new HashSet<Employee>();
         }
-    
         public int DeptCode { get; set; }
         public string DeptName { get; set; }
     

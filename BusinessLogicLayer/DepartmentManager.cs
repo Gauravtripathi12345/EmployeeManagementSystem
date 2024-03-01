@@ -1,16 +1,13 @@
-﻿using System;
+﻿using Data_Access_Layer;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Data_Access_Layer;
 
 namespace BusinessLogicLayer
 {
     public class DepartmentManager
     {
         private readonly EmployeeManagementDatabaseEntities dbContext;
-
         public DepartmentManager()
         {
             dbContext = new EmployeeManagementDatabaseEntities();
@@ -25,7 +22,6 @@ namespace BusinessLogicLayer
                     DeptName = dept.DeptName
                 })
                 .ToList();
-
             return departmentData;
         }
         public bool AddDepartment(DepartmentDataDTO departmentDataDTO)
@@ -37,7 +33,6 @@ namespace BusinessLogicLayer
                     DeptCode = departmentDataDTO.DeptCode,
                     DeptName = departmentDataDTO.DeptName
                 };
-
                 dbContext.Departments.Add(department);
                 dbContext.SaveChanges();
                 return true;

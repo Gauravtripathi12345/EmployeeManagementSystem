@@ -1,10 +1,6 @@
 ﻿using BusinessLogicLayer;
 using EmployeeManagementSystemAPI.Models;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
 using System.Web.Http;
 
 namespace EmployeeManagementSystemAPI.Controllers
@@ -27,7 +23,6 @@ namespace EmployeeManagementSystemAPI.Controllers
             {
                 return NotFound();
             }
-
             return Ok(departmentData);
         }
 
@@ -37,7 +32,6 @@ namespace EmployeeManagementSystemAPI.Controllers
         {
             List<DeptDTO> departments = departmentManager.GetDepartments();
             List<DeptModel> departmentModels = new List<DeptModel>();
-
             foreach (var department in departments)
             {
                 DeptModel departmentModel = new DeptModel
@@ -46,7 +40,6 @@ namespace EmployeeManagementSystemAPI.Controllers
                     DeptName = department.DeptName,
                     Employees = new List<EmpModel>()
                 };
-
                 foreach (var employee in department.Employees)
                 {
                     departmentModel.Employees.Add(new EmpModel
@@ -57,7 +50,6 @@ namespace EmployeeManagementSystemAPI.Controllers
                         Email = employee.Email
                     });
                 }
-
                 departmentModels.Add(departmentModel);
             }
 
@@ -74,13 +66,11 @@ namespace EmployeeManagementSystemAPI.Controllers
             {
                 return NotFound();
             }
-
             DepartmentDataModel departmentDataModel = new DepartmentDataModel
             {
                 DeptCode = department.DeptCode,
                 DeptName = department.DeptName
             };
-
             return Ok(departmentDataModel);
         }
 
@@ -92,7 +82,6 @@ namespace EmployeeManagementSystemAPI.Controllers
             {
                 return BadRequest(ModelState);
             }
-
             DepartmentDataDTO departmentDataDTO = new DepartmentDataDTO
             {
                 DeptCode = departmentDataModel.DeptCode,
@@ -104,7 +93,6 @@ namespace EmployeeManagementSystemAPI.Controllers
             {
                 return InternalServerError();
             }
-
             return Ok("Department added successfully");
         }
 
@@ -116,12 +104,10 @@ namespace EmployeeManagementSystemAPI.Controllers
             {
                 return BadRequest(ModelState);
             }
-
             if (id != departmentDataModel.DeptCode)
             {
                 return BadRequest($"{id} not found in the database");
             }
-
             DepartmentDataDTO departmentDataDTO = new DepartmentDataDTO
             {
                 DeptCode = departmentDataModel.DeptCode,
@@ -133,7 +119,6 @@ namespace EmployeeManagementSystemAPI.Controllers
             {
                 return InternalServerError();
             }
-
             return Ok("Updated Department detail");
         }
 
@@ -146,7 +131,6 @@ namespace EmployeeManagementSystemAPI.Controllers
             {
                 return BadRequest($"Deletion not possible for Department Id:{id}");
             }
-
             return Ok("Deleted the Department");
         }
     }

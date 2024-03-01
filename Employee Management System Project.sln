@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data_Access_Layer", "Data A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessLogicLayer", "BusinessLogicLayer\BusinessLogicLayer.csproj", "{A616D007-6AF7-4ACF-90D1-3FBEA83AD88F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagementSystem", "EmployeeManagementSystem\EmployeeManagementSystem.csproj", "{91B88068-A512-472F-AFBB-BB36FC564F58}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManagementSystemAPI", "EmployeeManagementSystemAPI\EmployeeManagementSystemAPI.csproj", "{8D3F42D4-A1A9-438E-9A79-EF7593903873}"
 EndProject
 Global
@@ -25,10 +23,6 @@ Global
 		{A616D007-6AF7-4ACF-90D1-3FBEA83AD88F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A616D007-6AF7-4ACF-90D1-3FBEA83AD88F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A616D007-6AF7-4ACF-90D1-3FBEA83AD88F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{91B88068-A512-472F-AFBB-BB36FC564F58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{91B88068-A512-472F-AFBB-BB36FC564F58}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{91B88068-A512-472F-AFBB-BB36FC564F58}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{91B88068-A512-472F-AFBB-BB36FC564F58}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8D3F42D4-A1A9-438E-9A79-EF7593903873}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8D3F42D4-A1A9-438E-9A79-EF7593903873}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D3F42D4-A1A9-438E-9A79-EF7593903873}.Release|Any CPU.ActiveCfg = Release|Any CPU
